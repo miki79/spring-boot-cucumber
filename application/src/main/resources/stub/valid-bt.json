@@ -1,0 +1,16 @@
+{
+  "as": "AS2856 British Telecommunications PLC",
+  "city": "St Helens",
+  "country": "United Kingdom",
+  "countryCode": "GB",
+  "isp": "BT",
+  "lat": 53.45,
+  "lon": -2.7333,
+  "org": "BT",
+  "query": "86.188.153.178",
+  "region": "ENG",
+  "regionName": "England",
+  "status": "success",
+  "timezone": "Europe/London",
+  "zip": "WA10"
+}

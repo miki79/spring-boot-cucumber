@@ -28,4 +28,8 @@ dependencies {
     compile project(':library')
     runtime('org.springframework.boot:spring-boot-devtools')
     testCompile('org.springframework.boot:spring-boot-starter-test')
+    testCompile('io.cucumber:cucumber-java8:3.0.2')
+    testCompile('io.cucumber:cucumber-junit:3.0.2')
+    testCompile('io.cucumber:cucumber-spring:3.0.2')
+    testCompile('junit:junit')
 }

@@ -1,10 +1,7 @@
 package com.slalom.demo.ipChecker.service.stub;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-
 import org.apache.commons.lang3.StringUtils;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.springframework.web.client.RestClientException;
 import org.springframework.web.client.RestTemplate;
 
@@ -12,8 +9,6 @@ import java.io.File;
 import java.io.IOException;
 
 public class RestTemplateStub extends RestTemplate {
-
-    private Logger logger = LoggerFactory.getLogger(RestTemplateStub.class);
 
     @Override
     @SuppressWarnings("unchecked")

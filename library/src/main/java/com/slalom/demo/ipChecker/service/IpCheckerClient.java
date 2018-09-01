@@ -1,11 +1,8 @@
 package com.slalom.demo.ipChecker.service;
 
 import com.slalom.demo.ipChecker.model.IpInfo;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.stereotype.Service;
-
 
 @Service
 @EnableConfigurationProperties(IpCheckerProperties.class)
@@ -21,6 +18,4 @@ public class IpCheckerClient {
 
         return ipCheckerProperties.getRestTemplate().getForObject(ipCheckerProperties.getHostname() + "/json/{ip}", IpInfo.class, ip);
     }
-
 }
-
